@@ -19,10 +19,10 @@ programa
 		
 		limpa()
 
-		quadrado1 = n1 * 2
-		quadrado2 = n2 * 2
-		quadrado3 = n3 * 2
-		quadrado4 = n4 * 2
+		quadrado1 = (n1 * n1)
+		quadrado2 = (n2 * n2)
+		quadrado3 = (n3 * n3)
+		quadrado4 = (n4 * n4)
 
 		se(quadrado3 >= 1000){
 			escreva("O número ", n3, " ao quadrado ficou: ", quadrado3)
@@ -40,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 427; 
+ * @POSICAO-CURSOR = 334; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
