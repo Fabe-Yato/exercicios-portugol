@@ -31,7 +31,7 @@ programa
 			limpa()
 		}
 		escreva("Maior salário: ", maiorSalario, "\nMédia salário: ", somaSalarios / 20, "\nMédia filhos: ", quantidadeFilhos / 20)
-		escreva("\nMédia de salário até R$100: ", (salarioMaior100 * 100) /20, "%")
+		escreva("\npercentual de salário até R$100: ", (salarioMaior100 * 100) /20, "%")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1003; 
+ * @POSICAO-CURSOR = 1168; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
