@@ -10,10 +10,13 @@ programa
 		para(inteiro cont = 0; cont <= 4; cont++){ 	//repetição para o controle de entradas do usuário
 			escreva("Digite a nota nº ", cont+1, ": ")
 			leia(pontuacao[cont])	
-
-			se(pontuacao[cont] > maiorNumero){
-				maiorNumero = pontuacao[cont]	
+		}
+		maiorNumero = pontuacao[0]
+		para(inteiro i = 0; i <= 4; i++){
+			se(pontuacao[i] > maiorNumero){
+				maiorNumero = pontuacao[i]	
 			}
+		
 		}
 		escreva("A maior nota é: ", maiorNumero)
 	}
@@ -23,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 213; 
+ * @POSICAO-CURSOR = 556; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
